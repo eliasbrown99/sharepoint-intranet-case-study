@@ -10,9 +10,9 @@ My job was to find out what people needed and help get the content into better s
 
 **Talked to the people who used it.** Most of my time went into meetings with loan officers, underwriters, and operations staff. I asked where they looked for product guidelines, what they could not find, and which documents they treated as current. Those conversations set the priorities for everything else.
 
-**Took stock of the content.** I ran an inventory across 31+ intranet sites using file names, locations, and modified dates. It turned up 68 groups of duplicate files and more than 200 older versions. I wrote three reports for management recommending what to clean up and how to organize it. A matching file name does not prove two files are the same, so the flagged groups went back to the staff who owned the content to decide.
+**Took stock of the content.** I ran an inventory across 29 intranet sites using file names, locations, and modified dates. It turned up groups of duplicate files and older versions sitting alongside current ones. I wrote reports for management recommending what to clean up and how to organize it. A matching file name does not prove two files are the same, so the flagged groups went back to the staff who owned the content to decide.
 
-**Set up a product catalog.** I put together a master SharePoint list covering 53+ mortgage products, and a product page where staff could browse the list, filter it, open a product, and follow links to its documents. The products site was in pilot when my internship ended.
+**Set up a product catalog.** I put together a master SharePoint list of the company's mortgage products, and a product page where staff could browse the list, filter it, open a product, and follow links to its documents. The products site was in pilot when my internship ended.
 
 **Explored search.** I prototyped a way to load intranet content into Azure AI Search so staff could ask questions across sites. It did not go past the prototype stage.
 
