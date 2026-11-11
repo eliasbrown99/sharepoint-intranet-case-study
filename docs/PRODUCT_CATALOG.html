@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A structured
+product catalog within SharePoint · Elias Brown</title><meta name="description" content="A content inventory and knowledge graph informed intranet cleanup discussions; a master product list and SharePoint web parts were used by staff.">
+<link rel="stylesheet" href="../report.58c509a4c14c.css"></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header class="masthead"><a class="identity" href="https://eliasbrown.io/">ELIAS BROWN <span>Selected analytical work</span></a><div class="masthead-links"><span class="discipline">Information architecture &amp; internal tools</span><a class="home-link" href="https://eliasbrown.io/">← Back to eliasbrown.io</a></div></header>
+<div class="projectbar"><a class="projectname" href="../index.html">SharePoint information organization</a><nav class="site-nav" aria-label="Project"><a href="../index.html">Overview</a><a href="CONTENT_REVIEW.html">Content review</a><a href="PRODUCT_CATALOG.html" aria-current="page">Product catalog</a><a href="https://github.com/eliasbrown99/sharepoint-intranet-case-study">Report repository</a></nav></div>
+<script>
+(() => {
+  const bar = document.querySelector('.projectbar');
+  const updateHeaderHeight = () => document.documentElement.style.setProperty(
+    '--projectbar-height', bar.getBoundingClientRect().height + 'px'
+  );
+  updateHeaderHeight();
+  if ('ResizeObserver' in window) new ResizeObserver(updateHeaderHeight).observe(bar);
+  else window.addEventListener('resize', updateHeaderHeight);
+})();
+</script>
+<div class="layout"><aside class="contents"><p class="eyebrow">ON THIS PAGE</p><nav aria-label="Sections"><a href="#keep-the-record-and-its-presentation-connected">Keep the record
+and its presentation connected</a><a href="#support-a-short-path-from-browsing-to-detail">Support a short
+path from browsing to detail</a><a href="#make-the-information-structure-usable">Make the information
+structure usable</a><a href="#describe-the-implemented-scope-accurately">Describe the
+implemented scope accurately</a></nav></aside>
+<main id="main"><article><h1 id="a-structured-product-catalog-within-sharepoint">A structured
+product catalog within SharePoint</h1>
+<p><strong>Workstream two · A master list and web parts used by
+staff</strong></p>
+<p>The product catalog provided a consistent entry point into product
+information and its associated documents. I developed the master
+SharePoint list and the web parts used to present it. Staff used both
+the list and the product-page interface.</p>
+<h2 id="keep-the-record-and-its-presentation-connected">Keep the record
+and its presentation connected</h2>
+<p>Structured records supplied the product information. The interface
+used SharePoint Framework, React, and TypeScript to retrieve and display
+those records within SharePoint. Document references remained connected
+to the relevant product.</p>
+<figure class="workflow"><ol class="process-flow"><li><span class="step-label">01</span><strong>Master list</strong><span>Maintain structured product information.</span></li><li><span class="step-label">02</span><strong>Browse</strong><span>Filter the catalog and open a product.</span></li><li><span class="step-label">03</span><strong>Read</strong><span>Present details in consistent sections.</span></li><li><span class="step-label">04</span><strong>Follow sources</strong><span>Open the associated documents.</span></li></ol><figcaption>A simplified reading workflow; no employer records, field definitions, or product rules are shown.</figcaption></figure>
+
+<p>This structure allowed the same underlying record to support a short
+gallery view and a more detailed product page. It also made browsing and
+filtering possible without asking users to open every product
+individually.</p>
+<h2 id="support-a-short-path-from-browsing-to-detail">Support a short
+path from browsing to detail</h2>
+<p>The implemented interface included a card-based gallery, filters, a
+product detail view, and separate areas for overview information and
+documents. Collapsible sections helped organize longer detail pages.
+Expand-all and collapse-all controls gave users a way to change how much
+information was visible.</p>
+<p>The document interface handled different file types and links. It
+included preview fallbacks when a thumbnail could not be shown and
+handling for shortcut files that pointed to another location. Those
+details mattered because a catalog needs to take a user to the source
+document as well as display a summary of the product.</p>
+<h2 id="make-the-information-structure-usable">Make the information
+structure usable</h2>
+<p>The master list and the interface served related purposes. The list
+organized product records into a consistent structure. The web parts
+turned those records into a reading and navigation experience for
+staff.</p>
+<p>The catalog also provided a concrete direction for the wider intranet
+work: product information could be presented through a shared entry
+point while retaining links to its supporting material. Decisions about
+the meaning, currency, and ownership of that material remained with the
+business.</p>
+<h2 id="describe-the-implemented-scope-accurately">Describe the
+implemented scope accurately</h2>
+<div class="table-wrap" role="region" aria-label="Data table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Implemented in the reviewed work</th>
+<th>Status in this case study</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Master product list and SharePoint web parts</td>
+<td>Used by staff</td>
+</tr>
+<tr>
+<td>Gallery, filters, and detail views</td>
+<td>Present in the implementation</td>
+</tr>
+<tr>
+<td>Document links, previews, and collapsible sections</td>
+<td>Present in the implementation</td>
+</tr>
+<tr>
+<td>Further layout editing and richer authoring controls</td>
+<td>Development ideas; not represented as delivered features</td>
+</tr>
+<tr>
+<td>Copilot Studio product search</td>
+<td>A later objective, separate from the staff-used catalog</td>
+</tr>
+</tbody>
+</table></div>
+<p>The report does not reproduce the underlying product definitions or
+describe the catalog as an automated lending-decision system. It
+presents the organizational and interface work at a level that can be
+discussed without disclosing the employer’s information.</p>
+<p><a href="../index.html">Return to the case study</a> · <a
+href="CONTENT_REVIEW.html">Content review workstream</a></p>
+</article><footer><strong>Elias Brown</strong><p>Original design and implementation: Elias Brown. Employer and internal material are withheld. Report presentation prepared with AI assistance.</p><a href="https://eliasbrown.io/">Personal website</a> · <a href="../index.html">Project overview</a> · <a href="#main">Back to top ↑</a></footer></main></div></body></html>
