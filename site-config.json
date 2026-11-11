@@ -1,0 +1,23 @@
+{
+  "title": "SharePoint information organization",
+  "category": "Information architecture & internal tools",
+  "description": "A content inventory and knowledge graph informed intranet cleanup discussions; a master product list and SharePoint web parts were used by staff.",
+  "repository_url": "https://github.com/eliasbrown99/sharepoint-intranet-case-study",
+  "nav": [
+    [
+      "Overview",
+      "README.md"
+    ],
+    [
+      "Content review",
+      "docs/CONTENT_REVIEW.md"
+    ],
+    [
+      "Product catalog",
+      "docs/PRODUCT_CATALOG.md"
+    ]
+  ],
+  "footer_note": "Original design and implementation: Elias Brown. Employer and internal material are withheld. Report presentation prepared with AI assistance.",
+  "markdown_format": "gfm-tex_math_dollars",
+  "repository_label": "Report repository"
+}

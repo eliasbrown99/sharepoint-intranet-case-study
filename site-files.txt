@@ -1,0 +1,3 @@
+README.md
+docs/CONTENT_REVIEW.md
+docs/PRODUCT_CATALOG.md
